@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.formLogin {
+  padding: 20px;
+  max-width: 400px;
+  margin: 200px auto;
+  background-color: #ccc;
+}

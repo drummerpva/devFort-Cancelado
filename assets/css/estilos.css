@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+textarea {
+  resize: none;
+}
+.telaPrincipal {
+  margin-top: 60px;
+}
+.navLeft {
+  width: 70%;
+}
+.navRight {
+  width: 30%;
+  display: flex;
+}
+.userName {
+  flex: 1;
+}
+.logOut {
+  width: 35px;
+  padding-left: 10px;
+}
+.logOut a {
+  display: block;
+}
+.tableRolavel {
+  height: 65vh;
+  overflow-y: auto;
+}
+.paginationRolavel {
+  padding-top: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+#buscaCliente {
+  width: 150px;
+  transition: width 0.6s;
+}
+#buscaCliente:focus {
+  width: 420px;
+}
+#buscaFornecedor {
+  width: 180px;
+  transition: width 0.6s;
+}
+#buscaFornecedor:focus {
+  width: 450px;
+}
+#buscaVendedor {
+  width: 185px;
+  transition: width 0.6s;
+}
+#buscaVendedor:focus {
+  width: 455px;
+}
+#buscaProduto {
+  width: 170px;
+  transition: width 0.6s;
+}
+#buscaProduto:focus {
+  width: 420px;
+}
+#buscaVenda {
+  width: 170px;
+  transition: width 0.6s;
+}
+#buscaVenda:focus {
+  width: 420px;
+}
+.searchResults {
+  width: 420px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+.si {
+  min-height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.si a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.si:hover {
+  background-color: #eee;
+}
+.qtdInput{
+  width:80px;
+  border-radius: 3px;
+  font-size: 20px;
+}
